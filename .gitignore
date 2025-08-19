@@ -1,0 +1,40 @@
+# Archivos de compilación
+cmake-build-*/
+build/
+out/
+
+# Archivos temporales de CLion
+.idea/
+*.iml
+
+# Archivos de CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+
+# Archivos de ejecución / binarios
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos generados por pruebas
+Testing/
+test-results/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
