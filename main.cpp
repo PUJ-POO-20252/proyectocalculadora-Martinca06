@@ -1,12 +1,13 @@
 #include <iostream>
-
-#include "Calculadora.h"
 #include "Matematicas.h"
 
+
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 int main() {
-    int x = 10;
-    int y = 4;
+    int x, y;
+    std::cout << "Enter 2 numbers: ";
+    std::cin >> x >> y;
 
     int resultado_suma = sumar(x, y);
     int resultado_resta = restar(x, y);
